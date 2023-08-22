@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="George_Csp::csp" title="Csp" module="George_Csp" sortOrder="10" resource="George_Csp::csp"/>
+        <add id="George_Csp::grid" title="Manage Csp" module="George_Csp" sortOrder="10" action="georgecsp/grid/index" resource="George_Csp::grid" parent="George_Csp::csp"/>
+    </menu>
+</config>

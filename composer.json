@@ -1,0 +1,26 @@
+{
+    "name": "george/module-csp",
+    "description": "CSP Module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+           {
+        "name": "George Markose",
+        "email": "markosege@yahoo.com"
+      }
+    ],
+    "suggest": {
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "George\\Csp\\": ""
+        }
+    },
+    "scripts": {
+        "test": "composer -v"
+    }
+}
